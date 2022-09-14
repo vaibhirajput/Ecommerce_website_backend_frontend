@@ -1,0 +1,78 @@
+#registerationdiv{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    
+}
+
+  
+#registerationformdiv{
+    width: 50%;
+    height: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+.bold{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#registerationfrom{
+    width: 90%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.forminputfelids{
+    width: 70%;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.forminputfelids input{
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.formbtn{
+    width: 70%;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formbtn button{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.formbtn button:hover{
+    color:  rgb(255, 39, 97);
+}

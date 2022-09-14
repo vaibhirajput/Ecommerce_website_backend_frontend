@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Ccontent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+}
+
+
+#orders{
+    width: 50%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+}
+
+#neworder{
+width: 100vh;
+height: auto;
+border-right: 2px solid grey;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.newproductserver{
+    width: 80%;
+    height: 220px;
+    background-color: rosybrown;
+    border-radius: 7px;
+    margin: 20px auto;
+}
+
+#cencelorders{
+    width: 100vh;
+    height: auto;
+    border-right: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#product{
+    width: 50%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#productheader{
+    width: 100%;
+    height: 120px;
+    /* border: 1px  solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#newproduct{
+    width: 33.3%;
+    height: 100%;
+    background-color: rgba(44, 44, 246, 0.427);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    /* border: 1px solid blue; */
+}
+
+#findorders{
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(167, 164, 164);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    /* border: 1px solid gray; */
+}
+
+#confromorder{
+    width: 33.3%;
+    height: 100%;
+    background-color: rgba(253, 184, 55, 0.798);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+
+    /* border: 1px solid blue; */
+}
+
+#newproductfromdiv{
+    width: 400px;
+    margin: 20px auto;
+    height: auto;
+    /* border: 2px solid rgb(180, 22, 22); */
+   background-color: rgba(44, 44, 246, 0.427);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#newproductfrom{
+    display: flex;
+    /* height: 400px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid rgb(180, 22, 22); */
+}
+
+.feilds{
+    width: 250px;
+    height: 25px;
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.headline{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.feildinput{
+    width: 99%;
+    height: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#findorderformdiv{
+    width: 400px;
+    height: 170px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#findorder{
+    margin: 20px auto;
+    display: none;
+}
+
+#orderconfrom{
+    margin: 20px auto;
+    display: none;
+}
+
+#orderconfromdiv{
+    width: 400px;
+    height: 170px;
+    background-color: rgba(253, 184, 55, 0.798);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.btndashbord{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+
+.dropdwon{
+    width: 250px;
+    height: 25px; 
+    /* border: 1px solid black; */
+    border-bottom: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.dropdwon2{
+    width: 250px;
+    height: 25px; 
+    /* border: 1px solid black; */
+    border-bottom: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
+.bottomborder{
+    border-bottom: 2px solid grey;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+
+}
+
+.symbol{
+    width: 22px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding-bottom: 5px;
+     padding-top: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.878);
+    border-radius: 4px;
+  
+}
+
+.symbol:hover{
+    box-shadow: 2px 2px 5px rgb(81, 81, 81);
+}
+
+.dropdowunmenu{
+    width: 200px;
+    height: auto; 
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    display: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px;
+}
+.dropdowunmenu2{
+    width: 200px;
+    height: auto; 
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px;
+
+}
+
+.checkdiv{
+    width: 170px;
+    height: 25px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#txtarea{
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

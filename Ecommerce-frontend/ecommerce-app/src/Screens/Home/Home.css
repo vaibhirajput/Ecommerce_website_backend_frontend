@@ -1,0 +1,123 @@
+#cartdivshow{
+    width: 100vw;
+    height: 50vh;
+    margin-bottom:15px;
+    padding: 25px;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#Categories{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#trendingheadline{
+    width: 100vw;
+    height: 70px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#trendingproductsdiv{
+    /* width: auto; */
+    height: 65vh;
+    padding: 15px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+ 
+}
+
+.trendingproduct{
+    width: 280px;
+    height: 350px;
+    border: 1px solid rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 0px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px;
+
+
+ 
+
+}
+.productimg{
+    width: 280px;
+    height: 75%;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.productimg img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.producttitle{
+    width: 280px;
+    height: 25%;
+    border-left: 1px solid  rgb(215, 215, 215);
+    border-right: 1px solid  rgb(215, 215, 215);
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+#infromationbar{
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(48, 46, 46, 0.974);
+}
+
+#infromationbar img{
+    width: 45%;
+    height: 100%;
+}
+
+#homegridproductsdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lk{
+    color: black;
+    text-decoration: none;
+}
+.lk:hover{
+    color: black;
+}
+.red{
+    color: red;
+}

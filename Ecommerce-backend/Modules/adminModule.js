@@ -3,11 +3,11 @@ const connection = require("../Modules/DbConnection");
 
 
 const Adminschema = new mongoose.Schema({
-    adminuser:{
+    email:{
         type:String,
         required:true,
     },
-    adminpassword:{
+    password:{
         type:String,
         required:true,
     },

@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#headerdiv{
+    width: 100vw;
+    height: 65px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#headerlogo{
+    margin-left: 25px;
+    
+}
+#headerlogo a{
+    color: white;
+   text-decoration: none;
+}
+#searchdiv{
+    width: auto;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* border: 2px solid black; */
+    
+}
+
+#search img{
+    width: 30px;
+}
+
+#cartdiv img{
+   height: 37px;
+
+}
+#cartdiv {
+   margin-left: 14px;
+   margin-right: 14px;
+   position: relative;
+}
+
+#searchdiv input{
+    width: 170px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+}  
+
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#headermenu{
+    width: 100vw;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headermenu a{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(255, 39, 97);
+}
+
+#headermenu a:hover{
+  color: rgb(237, 0, 63);
+}
+
+#Signin button{
+    width: 75px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+
+}
+#Signin button:hover{
+    color:rgb(237, 0, 63);
+}
+
+#Signup button{
+    width: 75px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+
+}
+#Signup button:hover{
+    color:rgb(237, 0, 63);
+}
+
+
+#user{
+ width: 40px;
+
+ margin-right: 10px;
+ margin-left: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 2px;
+ box-sizing: border-box;
+ position: relative;
+ display: none;
+
+}
+#user img{
+    width: 33px;
+    
+ 
+}
+
+#userinfodiv{
+    width: 330px;
+    height: 330px;
+    border: 1px solid black;
+    position: absolute;
+    right: -15px;
+    top: 47px;
+    z-index: 999999;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.username{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+    margin-top: 5px;
+  
+}
+
+#userpic{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 213, 213);
+    border-radius: 10px;
+}
+
+#userpic img{
+    width: 70px;
+ 
+}
+
+.manage{
+    margin-top: 15px;
+}
+
+#col{
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,274 @@
+#productdetailsdiv{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#productdetails{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.productdetailsImg{
+    width: 50%;
+    height: 90vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+
+}
+
+.bigimg{
+    width: 75%;
+    height: 80%;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 1px 1px 3px;    
+    transition: all  10s;
+    transform: translateX(1.2);
+    margin-top: 60px;
+  
+}
+
+
+
+.bigimg img{
+    width: 100%;
+    height: 100%;
+   
+ 
+}
+/* .smooth{
+    transition: all  1s;
+    transform: translate3d(1.1);
+} */
+
+.smallsimg{
+    width: 80%;
+    height: 18%;
+    /* border: 2px solid red; */
+    margin: 20px 0px;
+    display: flex;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.simg{
+width: 22%;
+height: 100%;
+margin: 0px 4px;
+
+border: 1px solid rgb(200, 200, 200);
+box-shadow: 1px 1px 3px;
+
+}
+
+.simg img{
+    width: 100%;
+    height: 100%;
+    
+    }
+
+.productdetailsinfo{
+    width: 50%;
+    height: auto;
+    /* border: 2px solid black; */
+}
+
+.productTittleAndPrice{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+.productSize{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgb(146, 22, 22); */
+    padding-left: 20px;
+  
+  
+}
+.sizeRadiobtn{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.productSize input {
+    appearance: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 5px 10px;
+    background:  #000;
+    color: #ececec;
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    transition: all 0.1s;
+    margin-right: 10px;
+  }
+
+  .productSize input:checked {
+    background : rgb(255, 39, 97);
+    color: white;
+    text-shadow: 0 1px 0px #808080;
+  }
+
+.productSize input::before {
+    content: attr(label);
+    text-align: center;
+  }
+  #buynowbtndiv{
+    width: 40%;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #buynowbtndiv button{
+  width: 55%;
+  height: 80%;
+  border-radius: 5px;
+  background-color: black;
+  color: rgb(255, 39, 97);
+  }
+
+  #buynowbtndiv button:hover{
+    color:rgb(237, 0, 63);
+  }
+
+
+.addtoCart{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgb(146, 22, 22); */
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.productbtndiv{
+    display: flex;
+    margin-top: 15px;
+
+
+}
+.productbtn{
+ width: 140px;
+ height: 40px;
+ background-color: black;
+ color: rgb(255, 39, 97);
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 20px;
+ cursor: pointer;
+ transition: all .2s;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ 
+}
+
+.productbtn:hover{
+   
+    color:rgb(237, 0, 63);
+
+}
+
+
+
+.productdiscription{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgb(146, 22, 22); */
+    padding-left: 20px;
+}
+.pdiscription{
+ width: 75%;
+ height: auto;
+ border-bottom: 2px solid #808080;
+ padding-bottom: 4px;
+ margin-top: 30px;
+
+}
+.common{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-weight: bold;
+   
+
+}
+.pdiscription span{
+    cursor: pointer;
+}
+
+.returnpolicy{
+    width: 75%;
+    height: auto;
+    border-bottom: 2px solid #808080;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.returnpolicy span{
+    cursor: pointer;
+}
+
+.returnpolicy2{
+    width: 75%;
+    height: auto;
+    display: none;
+}
+
+.pdiscription2{
+    width: 75%;
+    height: auto;
+    display: none;
+
+}
+
+#quantity{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.point{
+    width: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quant{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px;
+}

@@ -5,26 +5,29 @@ const lower = require("../Modules/ProductLower");
 
 
 
+
 // get t-shirt product api
 const productTshirt = async(req, res)=>{
-   res.send('productTshirt');
+   const Data = await tshirt.find();
+   res.json(Data);
 }
 
 
 // Post t-shirt product api
 const productTshirtPOST = async(req, res)=>{
-   const { title,category,gender,size,colours,price,quantity} = req.body;
+   const { title,category,gender,size,colours,price,quantity,discripation} = req.body;
    let img = [];
    img = req.files;
-
-   if(title && category && gender && size && colours && price && quantity && img ){
+   console.log(req.body);
+   console.log(img);
+   if(title && category && gender && size && colours && price && quantity && discripation ){
       
    try {
       
       let imguri = img.map((data)=>{
        return data.path;
       })
- 
+      console.log(imguri);
       let imgs;
       const imgs_url =[];
       let realuri;
@@ -34,7 +37,7 @@ const productTshirtPOST = async(req, res)=>{
         realuri = imgs.secure_url
         imgs_url.push(realuri);
       }
-
+      
       await tshirt.create({
       title,
       category,
@@ -43,7 +46,8 @@ const productTshirtPOST = async(req, res)=>{
       size,
       colours,
       price,
-      quantity
+      quantity,
+      discripation
 
      });
 
@@ -64,7 +68,8 @@ const productTshirtPOST = async(req, res)=>{
 
 // get lower products api
 const productLower = async(req, res)=>{
-    res.send("Product lower");
+    const Data = await lower.find();
+    res.json(Data);
  }
 
 

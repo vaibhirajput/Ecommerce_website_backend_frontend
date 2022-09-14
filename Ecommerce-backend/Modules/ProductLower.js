@@ -10,6 +10,10 @@ const Lowerschema = new mongoose.Schema({
         type:String,
         required:true,
     },
+    discripation:{
+        type:String,
+        required:true,
+    },
     gender:{
         type:String,
         required:true,

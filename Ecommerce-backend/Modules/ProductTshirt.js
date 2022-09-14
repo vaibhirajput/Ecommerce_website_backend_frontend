@@ -14,6 +14,10 @@ const Tshirtschema = new mongoose.Schema({
         type:String,
         required:true,
     },
+    discripation:{
+        type:String,
+        required:true,
+    },
     imgs_url:[{
         type:String,
         required:true,   
@@ -38,5 +42,5 @@ const Tshirtschema = new mongoose.Schema({
 
 })
 
-const tshirt = new mongoose.model("Tshirts",Tshirtschema);
+const tshirt = mongoose.model("Tshirts",Tshirtschema);
 module.exports = tshirt;

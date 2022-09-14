@@ -10,8 +10,12 @@ const PORT = 4000;
 
 const cors = require("cors");
 
+
+
+
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended:false}));
+app.use(cors());
 
 app.use(products);
 app.use(signup);
